@@ -1,4 +1,5 @@
 from data import get_user_data
+import data
 import streamlit as st
 
 def tap_populator(tab, username):
@@ -14,3 +15,7 @@ def tap_populator(tab, username):
                 
                 st.metric(account_name, account_amount)
 
+        add_new_expense_controls(user_info)
+
+def add_new_expense_controls(username):
+    pass

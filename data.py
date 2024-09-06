@@ -1,8 +1,9 @@
 data = {
-            "Faryal" : {
-                "accounts" : {"HBL" : 10000}
+            "users" : ["user1", "user2"],
+            "user1 Budget" : {
+                "accounts" : {"A" : 10000}
             },
-            "Zain" : {
+            "user2 Budget" : {
                 "accounts" : {"SCB" : 5000, "ABL" : 10, "HBL" : 2000, "Credit Card" : -2000}
             }
 
